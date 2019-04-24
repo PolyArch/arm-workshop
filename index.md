@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Hi There!
+title: 1st Annual RAW Workshop at Arm Resesarch Summit
 ---
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 [Link to another page](./another-page.html).
 -->
 
-# Renegotiating the Levels of Abstraction for the Post Moore's Law Era
+### Renegotiating the Levels of Abstraction for the Post Moore's Law Era
 
 Several industrial trends are conspiring together to threaten the traditionally expected generational scaling of compute performance: the exponential growth in the scale of data, the commensurate rise in computationally intensive techniques to extract meaning from this deluge (e.g. ML, CV, Graph Analytics), and most of all, the impending end of Moore’s Law.
 
@@ -18,9 +18,56 @@ As with other such disruptive moments, this one is also characterized by a gold-
 This workshop will attempt to bring together researchers who are working across the various levels of abstraction into the same room, in the hope that people working in different levels may gain insight into the objectives, constraints, and expectations of the others.
 
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-<table class="c20"><tbody><tr class="c30"><td class="c31" colspan="1" rowspan="1"><p class="c15"><span class="c1">&hellip;</span></p></td><td class="c14" colspan="1" rowspan="1"><p class="c15"><span class="c1">Yesterday</span></p></td><td class="c24" colspan="1" rowspan="1"><p class="c15"><span class="c1">Today &amp; Tomorrow?</span></p></td></tr><tr class="c10"><td class="c27" colspan="1" rowspan="1"><p class="c15"><span class="c1">Applications &amp; Algorithms</span></p></td><td class="c14" colspan="1" rowspan="1"><p class="c15"><span class="c1">Abstracted from hardware, parallelism the primary concern </span></p></td><td class="c24" colspan="1" rowspan="1"><p class="c15"><span class="c1">Codesigned for the underlying hardware execution model </span></p></td></tr><tr class="c29"><td class="c21" colspan="1" rowspan="1"><p class="c15"><span class="c1">Languages</span></p></td><td class="c14" colspan="1" rowspan="1"><p class="c15"><span class="c1">Imperative, shared memory, C, C++, OpenCL, OpenMP</span></p></td><td class="c24" colspan="1" rowspan="1"><p class="c15"><span class="c1">Functional, DSLs, </span></p><p class="c15"><span class="c1">partitioned memory</span></p></td></tr><tr class="c35"><td class="c31 c33" colspan="1" rowspan="1"><p class="c15"><span class="c1">Compilers &amp; IRs</span></p></td><td class="c14" colspan="1" rowspan="1"><p class="c15"><span class="c1">LLVM, GCC</span></p></td><td class="c24" colspan="1" rowspan="1"><p class="c15"><span class="c1">Relay, NNVM, MLIR, GLOW, HPVM, DLVM&hellip;</span></p></td></tr><tr class="c32"><td class="c17" colspan="1" rowspan="1"><p class="c15"><span class="c1">Execution Models &amp; Runtimes</span></p></td><td class="c14" colspan="1" rowspan="1"><p class="c15"><span class="c1">Imperative, SIMD, SIMT</span></p></td><td class="c24" colspan="1" rowspan="1"><p class="c15"><span class="c1">BSP, Dataflow, FSM, Streaming Task Graphs...</span></p></td></tr><tr class="c23"><td class="c28" colspan="1" rowspan="1"><p class="c15"><span class="c1">Architectures</span></p></td><td class="c14" colspan="1" rowspan="1"><p class="c15"><span class="c1">Von Neumann, threaded, Warp-based, shared memory</span></p></td><td class="c24" colspan="1" rowspan="1"><p class="c15"><span class="c1">&ldquo;non-Von Neumann&rdquo;: Decentralized, explicitly parallel, communication-centric, task parallel, restricted Von-Neumann, Heterogeneous...</span></p></td></tr><tr class="c26"><td class="c19" colspan="1" rowspan="1"><p class="c15"><span class="c1">Micro-architectures</span></p></td><td class="c14" colspan="1" rowspan="1"><p class="c15"><span class="c1">Pipelined, restricted dynamic dataflow; SIMT/Warp-based</span></p></td><td class="c24" colspan="1" rowspan="1"><p class="c15"><span class="c1">&ldquo;Spatial&rdquo;: MPPAs, CGRAs, FPGAs, custom hardware...</span></p></td></tr></tbody></table>
+<style type="text/css">
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:black;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:black;}
+.tg .tg-vfn0{background-color:#efefef;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-3jee{background-color:#fabf8f;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-drf9{background-color:#d99594;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-x3r1{background-color:#b2a1c7;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-zefg{background-color:#c0c0c0;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-k843{background-color:#b3d7ff;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-kkvh{background-color:#c2d69b;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-ycmz{background-color:#f7f793;border-color:#000000;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+  <tr>
+    <th class="tg-zefg">Abstractions</th>
+    <th class="tg-zefg">Yesterday</th>
+    <th class="tg-zefg">Today &amp; Tomorrow?</th>
+  </tr>
+  <tr>
+    <td class="tg-x3r1">Applications &amp; Algorithms</td>
+    <td class="tg-vfn0">Abstracted from hardware, parallelism the primary concern</td>
+    <td class="tg-vfn0">Codesigned for the underlying hardware execution model</td>
+  </tr>
+  <tr>
+    <td class="tg-k843">Languages</td>
+    <td class="tg-vfn0">Imperative, shared memory, C, C++, OpenCL, OpenMP</td>
+    <td class="tg-vfn0">Functional, DSLs,partitioned memory</td>
+  </tr>
+  <tr>
+    <td class="tg-kkvh">Compilers &amp; IRs</td>
+    <td class="tg-vfn0">LLVM, GCC</td>
+    <td class="tg-vfn0">Relay, NNVM, MLIR, GLOW, HPVM, DLVM…</td>
+  </tr>
+  <tr>
+    <td class="tg-ycmz">Execution Models &amp; Runtimes</td>
+    <td class="tg-vfn0">Imperative, SIMD, SIMT</td>
+    <td class="tg-vfn0">BSP, Dataflow, FSM, Streaming Task Graphs...</td>
+  </tr>
+  <tr>
+    <td class="tg-3jee">Architectures</td>
+    <td class="tg-vfn0">Von Neumann, threaded, Warp-based, shared memory</td>
+    <td class="tg-vfn0">“non-Von Neumann”: Decentralized, explicitly parallel, communication-centric, task parallel, restricted Von-Neumann, Heterogeneous...</td>
+  </tr>
+  <tr>
+    <td class="tg-drf9">Micro-architectures</td>
+    <td class="tg-vfn0">Pipelined, restricted dynamic dataflow; SIMT/Warp-based</td>
+    <td class="tg-vfn0">“Spatial”: MPPAs, CGRAs, FPGAs, custom hardware...</td>
+  </tr>
+</table>
 
 # Goals:
 Broadly our goal is to bring together researchers doing work across DSLs, compilers, architecture, and accelerator communities.  
