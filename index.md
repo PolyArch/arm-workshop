@@ -69,7 +69,7 @@ This workshop will attempt to bring together researchers who are working across 
 </table>
 
 # Goals:
-Broadly our goal is to bring together researchers doing work across DSLs, compilers, architecture, and accelerator communities.  
+Broadly our goal is to bring together researchers doing work across DSLs, compilers, architecture, and accelerator communities.  We hope to spark interest in some open cross-cutting questions, for example:
 
 * What is the nature of the key applications (incl. algorithms, and datastructures) looking forward over the next decade?
 * What are the compute, memory, interconnect, bandwidth, scaling etc. requirements?
