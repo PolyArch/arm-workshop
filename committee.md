@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Committee
 ---
 
 Contact Email: tjn cs.ucla.edu
