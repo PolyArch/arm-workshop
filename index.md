@@ -7,7 +7,7 @@ Text can be **bold**, _italic_, or ~~strikethrough~~.
 -->
 
 # Renegotiating the Levels of Abstraction for the Post Moore's Law Era
-### A Workshop at the ARM Research Summit, September 15-19, 2019
+### A Workshop at the [ARM Research Summit](https://www.arm.com/company/events/research-summit), September 15-19, 2019
 
 Several industrial trends are conspiring together to threaten the traditionally expected generational scaling of compute performance: the exponential growth in the scale of data, the commensurate rise in computationally intensive techniques to extract meaning from this deluge (e.g. ML, CV, Graph Analytics), and most of all, the impending end of Moore’s Law.
 
@@ -68,7 +68,7 @@ This workshop will attempt to bring together researchers who are working across 
   </tr>
 </table>
 
-# Goals:
+## Workshop Goals:
 Broadly our goal is to bring together researchers doing work across DSLs, compilers, architecture, and accelerator communities.  We hope to spark interest in some open cross-cutting questions, for example:
 
 * What is the nature of the key applications (incl. algorithms, and datastructures) looking forward over the next decade?
