@@ -22,11 +22,26 @@
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.github.is_project_page %}
 
-	<p class="view"><a href="{{site.base_url}}/program.html">Program</a></p>
+        <ul class="sidebar-nav">
 
-	<p class="view"><a href="{{site.base_url}}/committee.html">Organizing Committee</a></p>
+          {% assign pages_list = site.pages %}
+          {% for node in pages_list %}
+            {% if node.title != null %}
+              {% if node.layout == "page" %}
+                <li class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}">
+                <a href="{{ site.baseurl }}{{ node.url }}">{{ node.title }}</a>
+                </li>
+              {% endif %}
+              {% if node.layout == "link" %}
+                <li class="sidebar-nav-item">
+                <a href="{{ node.linkurl }}">{{ node.title }}</a>
+                </li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+
 
 
 	<p class="view"><a href="https://docs.google.com/forms/d/e/1FAIpQLSdatcCicCh7IL4Dhdbt3LWlzPETh6GoTMpVd3RfCoxCGtcobQ/viewform?usp=sf_link">Submit a Paper/Proposal<small>Google Forms Link</small></a></p>
