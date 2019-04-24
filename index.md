@@ -17,19 +17,18 @@ As with other such disruptive moments, this one is also characterized by a gold-
 
 This workshop will attempt to bring together researchers who are working across the various levels of abstraction into the same room, in the hope that people working in different levels may gain insight into the objectives, constraints, and expectations of the others.
 
-
 <style type="text/css">
 .tg  {border-collapse:collapse;border-spacing:0;}
 .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:black;}
 .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-top-width:1px;border-bottom-width:1px;border-color:black;}
-.tg .tg-vfn0{background-color:#efefef;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-3jee{background-color:#fabf8f;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-drf9{background-color:#d99594;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-x3r1{background-color:#b2a1c7;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-4fps{background-color:#efefef;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-cl49{background-color:#f7f793;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-o7qv{background-color:#c2d69b;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
 .tg .tg-zefg{background-color:#c0c0c0;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-k843{background-color:#b3d7ff;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-kkvh{background-color:#c2d69b;border-color:#000000;text-align:left;vertical-align:top}
-.tg .tg-ycmz{background-color:#f7f793;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-pylb{background-color:#b2a1c7;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-yp4f{background-color:#b3d7ff;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-as4m{background-color:#fabf8f;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
+.tg .tg-5v9j{background-color:#d99594;color:#000000;border-color:#000000;text-align:left;vertical-align:top}
 </style>
 <table class="tg">
   <tr>
@@ -38,34 +37,34 @@ This workshop will attempt to bring together researchers who are working across 
     <th class="tg-zefg">Today &amp; Tomorrow?</th>
   </tr>
   <tr>
-    <td class="tg-x3r1">Applications &amp; Algorithms</td>
-    <td class="tg-vfn0">Abstracted from hardware, parallelism the primary concern</td>
-    <td class="tg-vfn0">Codesigned for the underlying hardware execution model</td>
+    <td class="tg-pylb">Applications &amp; Algorithms</td>
+    <td class="tg-4fps">Abstracted from hardware, parallelism the primary concern</td>
+    <td class="tg-4fps">Codesigned for the underlying hardware execution model</td>
   </tr>
   <tr>
-    <td class="tg-k843">Languages</td>
-    <td class="tg-vfn0">Imperative, shared memory, C, C++, OpenCL, OpenMP</td>
-    <td class="tg-vfn0">Functional, DSLs,partitioned memory</td>
+    <td class="tg-yp4f">Languages</td>
+    <td class="tg-4fps">Imperative, shared memory, C, C++, OpenCL, OpenMP</td>
+    <td class="tg-4fps">Functional, DSLs,partitioned memory</td>
   </tr>
   <tr>
-    <td class="tg-kkvh">Compilers &amp; IRs</td>
-    <td class="tg-vfn0">LLVM, GCC</td>
-    <td class="tg-vfn0">Relay, NNVM, MLIR, GLOW, HPVM, DLVM…</td>
+    <td class="tg-o7qv">Compilers &amp; IRs</td>
+    <td class="tg-4fps">LLVM, GCC</td>
+    <td class="tg-4fps">Relay, NNVM, MLIR, GLOW, HPVM, DLVM…</td>
   </tr>
   <tr>
-    <td class="tg-ycmz">Execution Models &amp; Runtimes</td>
-    <td class="tg-vfn0">Imperative, SIMD, SIMT</td>
-    <td class="tg-vfn0">BSP, Dataflow, FSM, Streaming Task Graphs...</td>
+    <td class="tg-cl49">Execution Models &amp; Runtimes</td>
+    <td class="tg-4fps">Imperative, SIMD, SIMT</td>
+    <td class="tg-4fps">BSP, Dataflow, FSM, Streaming Task Graphs...</td>
   </tr>
   <tr>
-    <td class="tg-3jee">Architectures</td>
-    <td class="tg-vfn0">Von Neumann, threaded, Warp-based, shared memory</td>
-    <td class="tg-vfn0">“non-Von Neumann”: Decentralized, explicitly parallel, communication-centric, task parallel, restricted Von-Neumann, Heterogeneous...</td>
+    <td class="tg-as4m">Architectures</td>
+    <td class="tg-4fps">Von Neumann, threaded, Warp-based, shared memory</td>
+    <td class="tg-4fps">“non-Von Neumann”: Decentralized, explicitly parallel, communication-centric, task parallel, restricted Von-Neumann, Heterogeneous...</td>
   </tr>
   <tr>
-    <td class="tg-drf9">Micro-architectures</td>
-    <td class="tg-vfn0">Pipelined, restricted dynamic dataflow; SIMT/Warp-based</td>
-    <td class="tg-vfn0">“Spatial”: MPPAs, CGRAs, FPGAs, custom hardware...</td>
+    <td class="tg-5v9j">Micro-architectures</td>
+    <td class="tg-4fps">Pipelined, restricted dynamic dataflow; SIMT/Warp-based</td>
+    <td class="tg-4fps">“Spatial”: MPPAs, CGRAs, FPGAs, custom hardware...</td>
   </tr>
 </table>
 
