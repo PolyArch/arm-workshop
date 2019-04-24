@@ -2,10 +2,10 @@
 layout: default
 title: Hi There!
 ---
-<!-->
+<!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 [Link to another page](./another-page.html).
-<!-->
+-->
 
 # Renegotiating the Levels of Abstraction for the Post Moore's Law Era
 
