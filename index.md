@@ -1,13 +1,14 @@
 ---
 layout: default
-title: 1st Annual RAW Workshop at Arm Resesarch Summit
+title: RAAW
 ---
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
 [Link to another page](./another-page.html).
 -->
 
-## Renegotiating the Levels of Abstraction for the Post Moore's Law Era
+# Renegotiating the Levels of Abstraction for the Post Moore's Law Era
+### A Workshop at the ARM Research Summit, September 15-19, 2019
 
 Several industrial trends are conspiring together to threaten the traditionally expected generational scaling of compute performance: the exponential growth in the scale of data, the commensurate rise in computationally intensive techniques to extract meaning from this deluge (e.g. ML, CV, Graph Analytics), and most of all, the impending end of Moore’s Law.
 
