@@ -1,5 +1,8 @@
 ---
 layout: default
+header:
+  image: /assets/img/ucla.svg
+  image: /assets/img/ARM_Research_Summit_horizontal_blue_LG.png
 ---
 <!--
 Text can be **bold**, _italic_, or ~~strikethrough~~.
