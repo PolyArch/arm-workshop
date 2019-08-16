@@ -5,13 +5,13 @@ title: Venue
 
 # Venue
 
-The Workshop is hosted at the 4th annual [Arm Research Summit](https://www.arm.com/company/events/research-summit), taking place in Austin, Texas, at the Sheraton Hotel at the Capitol, from September 15-18, 2019.  The workshop will be held on Monday, September 16th, 2019.
+The Workshop is hosted at the 4th annual [Arm Research Summit](https://www.arm.com/company/events/research-summit), taking place in Austin, Texas, at the Sheraton Hotel at the Capitol, from September 15-18, 2019. The workshop will be held on Monday, September 16th, 2019.
 
 ## Registration
 
-The interest-registration page for the summit is [here](https://pages.arm.com/Research-Summit-interest.html). We will post the final summit registration page when it is ready.  Note that registration to the summit grants access to the workshop.  
+The registration page for the summit is [here](https://eu.eventscloud.com/ereg/newreg.php?eventid=200185849). Note that registration to the summit grants access to the workshop.
 
-In the mean time, it would be helpful to us if you could let us know if you are interested in attending, or giving a talk or poster.  Link in sidebar.
+In the mean time, it would be helpful to us if you could let us know if you are interested in attending, or giving a talk or poster. Link in sidebar.
 
 ## Map
 
