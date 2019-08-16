@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Committee
+title: Organizers
 ---
 
 Contact Email: tjn cs.ucla.edu
 
-Organizing committee:
+Organizers:
 * Tony Nowatzki, UCLA 
 * Ali Zaidi, Arm (Cambridge)	
 * Giacomo Gabrielli, Arm (Cambridge)	
