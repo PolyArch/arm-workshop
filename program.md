@@ -45,11 +45,13 @@ Date: 16th September 2019.
     <th rowspan="4">1400 - 1530<br>(22-min sessions)</th>
     <th rowspan="4">DSLs, Compilers, & IRs</th>
     <td>Thierry Moreau (UoWashington)</td>
-    <td> </td>
+    <td>The Past, Present and Future of Deep Learning Acceleration Stacks.
+ </td>
   </tr>
   <tr>
     <td>Riyadh Baghdadi (MIT)</td>
-    <td> </td>
+    <td>A Polyhedral Compiler for Dense and Sparse Deep Learning and More
+ </td>
   </tr>
   <tr>
     <td>Jeff Setter (Stanford)</td>
@@ -57,7 +59,8 @@ Date: 16th September 2019.
   </tr>
   <tr>
     <td>Naums Mogers (UoEdinburgh)</td>
-    <td> </td>
+    <td>Functional Interface for Performance Portability on Parallel Accelerators
+ </td>
   </tr>
   <tr>
     <th>1530 - 1600</th>
@@ -67,7 +70,8 @@ Date: 16th September 2019.
     <th rowspan="2">1600 - 1650<br>(25-min sessions)</th>
     <th rowspan="2">Programmable Accelerators</th>
     <td>Aviral Shrivastava (ASU)</td>
-    <td> </td>
+    <td> dMazeRunner: Accelerate perfectly nested loops on dataflow accelerators
+/td>
   </tr>
   <tr>
     <td>Ramana Radhakrishnan (Arm)</td>
