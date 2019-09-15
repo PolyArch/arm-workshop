@@ -50,12 +50,12 @@ Date: 16th September 2019.
   </tr>
   <tr>
     <td>Riyadh Baghdadi (MIT)</td>
-    <td>A Polyhedral Compiler for Dense and Sparse Deep Learning and More
+    <td> Tiramisu: A Polyhedral Compiler for Dense and Sparse Deep Learning and More
  </td>
   </tr>
   <tr>
     <td>Jeff Setter (Stanford)</td>
-    <td> </td>
+    <td>Halide to Hardware: Exploring accelerators using software languages </td>
   </tr>
   <tr>
     <td>Naums Mogers (UoEdinburgh)</td>
@@ -79,8 +79,9 @@ Date: 16th September 2019.
   </tr>
   <tr>
     <th>1650 - 1730</th>
+    <td> Panel </td>
     <td> Sarita Adve, Vikram Adve, Arrvindh Shriraman, Riyadh Baghdadi </td>
-    <td colspan="2" align="center">Panel<br>Moderator - David Weaver (Arm)</td>
+    <td colspan="1" align="center">Panel Moderator - David Weaver (Arm)</td>
   </tr>
 </table>
 
